@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(67, 67, 200);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgb(67, 67, 200);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px 0 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#participants {
+    display: flex;
+    justify-content: space-around;
+}
+
+#participants div {
+    color: white;
+    width: 30%;
+    background-color:rgb(67, 67, 200);
+    padding: 10px;
+
+    box-shadow: 1 0 0px rgba(0, 0, 0, 0.1);
+}
